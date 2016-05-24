@@ -32,7 +32,7 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body style="overflow-x: hidden;">
 
     <div class="site-wrapper">
 
@@ -50,20 +50,32 @@
             <h1 class="cover-heading">The Students' Perspective</h1>
             <p class="lead">A modern approach to physics education.</p><br \>
             <p class="lead">
-              <a href="#" class="btn btn-lg btn-default">Start learning</a>
+              <a href="#" class="btn btn-lg btn-default">Start learning <span class="glyphicon glyphicon-circle-arrow-down" aria-hidden="true"></span></a>
             </p>
-          </div>
-
-          <div class="mastfoot">
-            <div class="inner">
-              <p>A summer project from Artur Avkhadiev and Evan Coleman.</p>
-            </div>
-          </div>
+          </div>  
 
         </div>
 
       </div>
 
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-md-4" style="background-image: url(img/qm.jpg); background-position: 50% 50%;">
+          <div class="caption">
+            <h3><br \><br \><br \><br \>Quantum Mechanics<br \><br \><br \><br \><br \></h3>
+          </div>
+      </div>
+      <div class="col-sm-3" style="background-image: url(img/about.jpg); background-position: 50% 50%; background-size: 120%">
+          <div class="caption">
+            <h3><br \><br \><br \><br \>About<br \><br \><br \><br \><br \></h3>
+          </div>
+      </div>
+      <div class="col-sm-3" style="background-image: url(img/coffee.jpg); background-position: 50% 50%; background-size: 150%">
+          <div class="caption">
+            <h3><br \><br \><br \><br \>Contribute<br \><br \><br \><br \><br \></h3>
+          </div>
+      </div>
     </div>
 
     <!-- Bootstrap core JavaScript
