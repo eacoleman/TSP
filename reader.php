@@ -30,10 +30,12 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
   </head>
 
-  <body>
+  <body style="overflow-y: hidden;">
 
+    <!-- NAVIGATION CONTAINER -->
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
         <div class="navbar-header">
@@ -43,24 +45,52 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Quantum Mechanics</a>
+          <a class="navbar-brand" href="#">The Students' Perspective</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Settings</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-home" style="margin-right: 4px;" aria-hidden="true"></span>Home</a></li>
+            <li id="reader-nav-settings" type="button" data-toggle="modal" data-target="#reader-modal-settings"><a href="#"><span class="glyphicon glyphicon-cog" style="margin-right: 4px;" aria-hidden="true"></span>Settings</a></li>
           </ul>
-          <form class="navbar-form navbar-right">
+
+          <!-- SEARCH -->
+          <form id="reader-nav-search" class="popup-window navbar-form navbar-right">
             <input type="text" class="form-control" placeholder="Search equations, text...">
           </form>
+
+          <div id="reader-search-content" class="popup-content hide">
+            <div class="container-fluid" style=""> 
+              <h3 id="reader-search-loading" class="row sub-header">Loading...
+                <div class="progress" style="margin-top: 10px;height: 10px">
+                  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%"></div>
+                </div>
+              </h3>
+              <ul class="row nav search-container">
+                <li>Title
+                  <div style="text-align: right; color: grey; width: 100%;">...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</div>
+                </li>
+                <li>Title <br \>
+                  <div style="text-align: right; color: grey; width: 100%;">...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</div>
+                </li>
+                <li>Title <br \>
+                  <div style="text-align: right; color: grey; width: 100%;">...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</div>
+                </li>
+                <li>Title <br \>
+                  <div style="text-align: right; color: grey; width: 100%;">...Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore...</div>
+                </li>
+              </ul>
+            </div>
+        </div>
         </div>
       </div>
     </nav>
 
+    <!-- MAIN CONTAINER -->
     <div class="container-fluid">
       <div class="row">
-        <h1 class="sub-header">Contents</h1>
+        <!-- SIDENAV -->
         <div class="col-sm-3 col-md-2 sidebar">
+          <h1 class="sub-header">Quantum Mechanics</h1>
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Title <span class="sr-only">(current)</span></a></li>
             <li><a href="#">Authors' Note</a></li>
@@ -70,9 +100,33 @@
             <li><a href="">Chapter 2: A Mechanical Review</a></li>
           </ul>
         </div>
+
+        <!-- READER BODY -->
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+        </div>
+      </div>
+    </div>
+
+    <!-- SETTINGS MODAL -->
+    <div class="modal fade" id="reader-modal-settings" tabindex="-1" role="dialog" aria-labelledby="Settings">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">Settings</h4>
+          </div>
+          <div class="modal-body">
+            Font size:<br \><br \>
+
+            Saved settings:<br \>
+            Remember last-viewed page<br \>
+            <br \>
 
 
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
         </div>
       </div>
     </div>
@@ -87,5 +141,8 @@
     <script src="js/holder.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="js/ie10-viewport-bug-workaround.js"></script>
+
+    <!-- Scripts for style, modal, popovers, other utils -->
+    <script src="js/reader-navigation-scripts.js"></script>
   </body>
 </html>
