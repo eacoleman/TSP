@@ -1,4 +1,4 @@
-#EXERCISE this is an exercise, it's all on one line
+#EXERCISE this is an exercise, it&#39s all on one line
 #DEMONSTRATION this is a demonstration, it takes up
 a few lines.
 #EQUATION 

@@ -44,16 +44,16 @@ def parser(input, types):
 			parsed_line = line[1:].split(' ', 1) 
 			output_dict['type'] = parsed_line[0].strip()
 			if len(parsed_line) > 1: 
-				output_dict['text'] = parsed_line[1].strip()
+				output_dict['text'] = parsed_line[1]
 				continue
 			else: 	
 				continue
 		else:
-			output_dict['text'] += line.strip()
+			output_dict['text'] += line
 
 
 # 1. Read in a text file 
-input_file = input("Enter the name of the input file: ")
+input_file = input("Enter the name of the input file (in quotation marks): ")
 input_text = open(input_file, "r") # opening the input text in read-only mode
 
 # 2. Read in an array of TYPEs (optional, have a default option) 
