@@ -102,6 +102,9 @@
 
         <!-- READER BODY -->
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          <div id="reader-book-body">
+            
+          </div>
         </div>
       </div>
     </div>
@@ -143,43 +146,9 @@
 
     <!-- Scripts for style, modal, popovers, other utils -->
     <script src="js/reader-navigation-scripts.js"></script>
-    <script src="js/require.js"></script>
+    
     <script src="js/elasticsearch.jquery.js"></script>
-   
-    <script> 
-      requirejs.config({
-        baseUrl: 'js/',
-        paths: {
-            // the left side is the module ID,
-            // the right side is the path to
-            // the jQuery file, relative to baseUrl.
-            // Also, the path should NOT include
-            // the '.js' file extension. This example
-            // is using jQuery 1.9.0 located at
-            // js/lib/jquery-1.9.0.js, relative to
-            // the HTML page.
-            bootstrap: 'bootstrap',
-            elasticsearch: 'elasticsearch'
-        }
-      });
+    <script src="js/dynamic_load.js"></script>
 
-        var client = new $.es.Client({
-          host: 'http://localhost:9200/',
-        });
-
-        client.ping({
-          requestTimeout: 30000,
-
-          // undocumented params are appended to the query string
-          hello: "elasticsearch"
-        }, function (error) {
-          if (error) {
-            console.error('elasticsearch cluster is down!');
-          } else {
-            console.log('All is well');
-          }
-        });
-      
-    </script>
   </body>
 </html>
