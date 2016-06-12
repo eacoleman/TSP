@@ -1,0 +1,6 @@
+#EXERCISE this is an exercise, it's all on one line
+#DEMONSTRATION this is a demonstration, it takes up
+a few lines.
+#EQUATION 
+the equation is on a new line
+#
