@@ -84,6 +84,10 @@
       </div>
     </nav>
 
+     <!-- MathJax script (local copy) -->
+     <!-- See /MathJax/config/default.js if you want to set up your own config -->
+     <script type="text/javascript" async src="./MathJax/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+
     <!-- MAIN CONTAINER -->
     <div class="container-fluid">
       <div class="row">
@@ -102,6 +106,7 @@
 
         <!-- READER BODY -->
         <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+          \( \hat{H}\psi(t) = i\hbar \frac{\partial}{\partial t}\psi(t) \)
         </div>
       </div>
     </div>
