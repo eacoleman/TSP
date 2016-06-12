@@ -1,0 +1,90 @@
+[2016-06-12 11:53:02,595][INFO ][node                     ] [Astron] version[5.0.0-alpha3], pid[9160], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 11:53:02,595][INFO ][node                     ] [Astron] initializing ...
+[2016-06-12 11:53:04,762][INFO ][plugins                  ] [Astron] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 11:53:04,815][INFO ][env                      ] [Astron] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [35.6gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 11:53:04,815][INFO ][env                      ] [Astron] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 11:53:08,747][INFO ][node                     ] [Astron] initialized
+[2016-06-12 11:53:08,747][INFO ][node                     ] [Astron] starting ...
+[2016-06-12 11:53:08,995][INFO ][transport                ] [Astron] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2016-06-12 11:53:08,999][WARN ][bootstrap                ] [Astron] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 11:53:08,999][WARN ][bootstrap                ] [Astron] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 11:53:13,086][INFO ][cluster.service          ] [Astron] new_master {Astron}{USyIg9GtR1mJM0CJpglqug}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-12 11:53:13,170][INFO ][gateway                  ] [Astron] recovered [0] indices into cluster_state
+[2016-06-12 11:53:13,233][INFO ][http                     ] [Astron] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2016-06-12 11:53:13,233][INFO ][node                     ] [Astron] started
+[2016-06-12 12:20:27,617][INFO ][node                     ] [Fallen One] version[5.0.0-alpha3], pid[6140], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 12:20:27,617][INFO ][node                     ] [Fallen One] initializing ...
+[2016-06-12 12:20:29,730][INFO ][plugins                  ] [Fallen One] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 12:20:29,780][INFO ][env                      ] [Fallen One] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [34.9gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 12:20:29,781][INFO ][env                      ] [Fallen One] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 12:20:34,046][INFO ][node                     ] [Fallen One] initialized
+[2016-06-12 12:20:34,046][INFO ][node                     ] [Fallen One] starting ...
+[2016-06-12 12:20:34,374][INFO ][transport                ] [Fallen One] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2016-06-12 12:20:34,374][WARN ][bootstrap                ] [Fallen One] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 12:20:34,374][WARN ][bootstrap                ] [Fallen One] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 12:20:35,638][INFO ][node                     ] [Tyr] version[5.0.0-alpha3], pid[7356], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 12:20:35,638][INFO ][node                     ] [Tyr] initializing ...
+[2016-06-12 12:20:37,159][INFO ][plugins                  ] [Tyr] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 12:20:37,236][INFO ][env                      ] [Tyr] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [34.3gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 12:20:37,236][INFO ][env                      ] [Tyr] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 12:20:38,569][INFO ][cluster.service          ] [Astron] added {{Fallen One}{5rcZIX8xTwClPos-P0vK6w}{127.0.0.1}{127.0.0.1:9302},}, reason: zen-disco-join(join from node[{Fallen One}{5rcZIX8xTwClPos-P0vK6w}{127.0.0.1}{127.0.0.1:9302}])
+[2016-06-12 12:20:38,685][INFO ][cluster.service          ] [Fallen One] detected_master {Astron}{USyIg9GtR1mJM0CJpglqug}{127.0.0.1}{127.0.0.1:9301}, added {{Astron}{USyIg9GtR1mJM0CJpglqug}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-receive(from master [master {Astron}{USyIg9GtR1mJM0CJpglqug}{127.0.0.1}{127.0.0.1:9301} committed version [3]])
+[2016-06-12 12:20:38,785][WARN ][discovery.zen.elect      ] [Astron] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2016-06-12 12:20:38,933][INFO ][http                     ] [Fallen One] publish_address {127.0.0.1:9202}, bound_addresses {127.0.0.1:9202}, {[::1]:9202}
+[2016-06-12 12:20:38,933][INFO ][node                     ] [Fallen One] started
+[2016-06-12 12:20:41,296][INFO ][node                     ] [Tyr] initialized
+[2016-06-12 12:20:41,296][INFO ][node                     ] [Tyr] starting ...
+[2016-06-12 12:20:41,603][INFO ][transport                ] [Tyr] publish_address {127.0.0.1:9303}, bound_addresses {127.0.0.1:9303}, {[::1]:9303}
+[2016-06-12 12:20:41,607][WARN ][bootstrap                ] [Tyr] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 12:20:41,607][WARN ][bootstrap                ] [Tyr] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 12:20:45,809][INFO ][cluster.service          ] [Astron] added {{Tyr}{njkCizYlT-ikFWgm0OO9eQ}{127.0.0.1}{127.0.0.1:9303},}, reason: zen-disco-join(join from node[{Tyr}{njkCizYlT-ikFWgm0OO9eQ}{127.0.0.1}{127.0.0.1:9303}])
+[2016-06-12 12:20:45,853][INFO ][cluster.service          ] [Tyr] detected_master {Astron}{USyIg9GtR1mJM0CJpglqug}{127.0.0.1}{127.0.0.1:9301}, added {{Astron}{USyIg9GtR1mJM0CJpglqug}{127.0.0.1}{127.0.0.1:9301},{Fallen One}{5rcZIX8xTwClPos-P0vK6w}{127.0.0.1}{127.0.0.1:9302},}, reason: zen-disco-receive(from master [master {Astron}{USyIg9GtR1mJM0CJpglqug}{127.0.0.1}{127.0.0.1:9301} committed version [4]])
+[2016-06-12 12:20:45,857][INFO ][cluster.service          ] [Fallen One] added {{Tyr}{njkCizYlT-ikFWgm0OO9eQ}{127.0.0.1}{127.0.0.1:9303},}, reason: zen-disco-receive(from master [master {Astron}{USyIg9GtR1mJM0CJpglqug}{127.0.0.1}{127.0.0.1:9301} committed version [4]])
+[2016-06-12 12:20:46,207][INFO ][http                     ] [Tyr] publish_address {127.0.0.1:9203}, bound_addresses {127.0.0.1:9203}, {[::1]:9203}
+[2016-06-12 12:20:46,207][INFO ][node                     ] [Tyr] started
+[2016-06-12 13:59:06,498][INFO ][node                     ] [Aldebron] version[5.0.0-alpha3], pid[7748], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 13:59:06,498][INFO ][node                     ] [Aldebron] initializing ...
+[2016-06-12 13:59:08,708][INFO ][plugins                  ] [Aldebron] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 13:59:08,767][INFO ][env                      ] [Aldebron] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [36.1gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 13:59:08,767][INFO ][env                      ] [Aldebron] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 13:59:13,105][INFO ][node                     ] [Aldebron] initialized
+[2016-06-12 13:59:13,105][INFO ][node                     ] [Aldebron] starting ...
+[2016-06-12 13:59:13,392][INFO ][transport                ] [Aldebron] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-12 13:59:13,400][WARN ][bootstrap                ] [Aldebron] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 13:59:13,400][WARN ][bootstrap                ] [Aldebron] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 13:59:17,517][INFO ][cluster.service          ] [Aldebron] new_master {Aldebron}{KDopCw-1TgWnpc7I5KW9Fg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-12 13:59:17,618][INFO ][node                     ] [Madcap] version[5.0.0-alpha3], pid[7664], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 13:59:17,618][INFO ][node                     ] [Madcap] initializing ...
+[2016-06-12 13:59:17,633][INFO ][gateway                  ] [Aldebron] recovered [0] indices into cluster_state
+[2016-06-12 13:59:17,798][INFO ][http                     ] [Aldebron] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-12 13:59:17,799][INFO ][node                     ] [Aldebron] started
+[2016-06-12 13:59:19,039][INFO ][plugins                  ] [Madcap] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 13:59:19,106][INFO ][env                      ] [Madcap] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [36.1gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 13:59:19,106][INFO ][env                      ] [Madcap] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 13:59:22,731][INFO ][node                     ] [Madcap] initialized
+[2016-06-12 13:59:22,731][INFO ][node                     ] [Madcap] starting ...
+[2016-06-12 13:59:23,020][INFO ][transport                ] [Madcap] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2016-06-12 13:59:23,020][WARN ][bootstrap                ] [Madcap] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 13:59:23,020][WARN ][bootstrap                ] [Madcap] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 13:59:27,184][INFO ][cluster.service          ] [Aldebron] added {{Madcap}{lIc3hf3yTxeMqKheMAhNSw}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-join(join from node[{Madcap}{lIc3hf3yTxeMqKheMAhNSw}{127.0.0.1}{127.0.0.1:9301}])
+[2016-06-12 13:59:27,241][INFO ][cluster.service          ] [Madcap] detected_master {Aldebron}{KDopCw-1TgWnpc7I5KW9Fg}{127.0.0.1}{127.0.0.1:9300}, added {{Aldebron}{KDopCw-1TgWnpc7I5KW9Fg}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-receive(from master [master {Aldebron}{KDopCw-1TgWnpc7I5KW9Fg}{127.0.0.1}{127.0.0.1:9300} committed version [3]])
+[2016-06-12 13:59:27,298][WARN ][discovery.zen.elect      ] [Aldebron] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2016-06-12 13:59:27,546][INFO ][http                     ] [Madcap] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2016-06-12 13:59:27,547][INFO ][node                     ] [Madcap] started
+[2016-06-12 14:24:52,040][INFO ][cluster.service          ] [Aldebron] removed {{Madcap}{lIc3hf3yTxeMqKheMAhNSw}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-node_failed({Madcap}{lIc3hf3yTxeMqKheMAhNSw}{127.0.0.1}{127.0.0.1:9301}), reason transport disconnected
+[2016-06-12 14:24:59,354][INFO ][node                     ] [Gertrude Yorkes] version[5.0.0-alpha3], pid[1124], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 14:24:59,354][INFO ][node                     ] [Gertrude Yorkes] initializing ...
+[2016-06-12 14:25:00,828][INFO ][plugins                  ] [Gertrude Yorkes] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 14:25:00,881][INFO ][env                      ] [Gertrude Yorkes] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [36.1gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 14:25:00,881][INFO ][env                      ] [Gertrude Yorkes] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 14:25:07,126][INFO ][node                     ] [Gertrude Yorkes] initialized
+[2016-06-12 14:25:07,126][INFO ][node                     ] [Gertrude Yorkes] starting ...
+[2016-06-12 14:25:07,478][INFO ][transport                ] [Gertrude Yorkes] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2016-06-12 14:25:07,484][WARN ][bootstrap                ] [Gertrude Yorkes] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 14:25:07,485][WARN ][bootstrap                ] [Gertrude Yorkes] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 14:25:11,621][INFO ][cluster.service          ] [Aldebron] added {{Gertrude Yorkes}{VVo_Ayf_SdmBAqqr5bkv0w}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-join(join from node[{Gertrude Yorkes}{VVo_Ayf_SdmBAqqr5bkv0w}{127.0.0.1}{127.0.0.1:9301}])
+[2016-06-12 14:25:11,621][INFO ][cluster.service          ] [Gertrude Yorkes] detected_master {Aldebron}{KDopCw-1TgWnpc7I5KW9Fg}{127.0.0.1}{127.0.0.1:9300}, added {{Aldebron}{KDopCw-1TgWnpc7I5KW9Fg}{127.0.0.1}{127.0.0.1:9300},}, reason: zen-disco-receive(from master [master {Aldebron}{KDopCw-1TgWnpc7I5KW9Fg}{127.0.0.1}{127.0.0.1:9300} committed version [5]])
+[2016-06-12 14:25:11,682][WARN ][discovery.zen.elect      ] [Aldebron] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2016-06-12 14:25:11,820][INFO ][http                     ] [Gertrude Yorkes] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2016-06-12 14:25:11,820][INFO ][node                     ] [Gertrude Yorkes] started
+[2016-06-12 14:45:02,787][INFO ][cluster.service          ] [Aldebron] removed {{Gertrude Yorkes}{VVo_Ayf_SdmBAqqr5bkv0w}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-node_failed({Gertrude Yorkes}{VVo_Ayf_SdmBAqqr5bkv0w}{127.0.0.1}{127.0.0.1:9301}), reason transport disconnected

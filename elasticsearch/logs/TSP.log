@@ -1,0 +1,140 @@
+[2016-06-12 14:45:06,369][INFO ][node                     ] [Shirow Ishihara] version[5.0.0-alpha3], pid[7724], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 14:45:06,369][INFO ][node                     ] [Shirow Ishihara] initializing ...
+[2016-06-12 14:45:08,310][INFO ][plugins                  ] [Shirow Ishihara] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 14:45:08,371][INFO ][env                      ] [Shirow Ishihara] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [36.1gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 14:45:08,373][INFO ][env                      ] [Shirow Ishihara] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 14:45:15,531][INFO ][node                     ] [Shirow Ishihara] initialized
+[2016-06-12 14:45:15,531][INFO ][node                     ] [Shirow Ishihara] starting ...
+[2016-06-12 14:45:15,938][INFO ][transport                ] [Shirow Ishihara] publish_address {127.0.0.1:9301}, bound_addresses {127.0.0.1:9301}, {[::1]:9301}
+[2016-06-12 14:45:15,947][WARN ][bootstrap                ] [Shirow Ishihara] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 14:45:15,947][WARN ][bootstrap                ] [Shirow Ishihara] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 14:45:20,045][INFO ][cluster.service          ] [Shirow Ishihara] new_master {Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-12 14:45:20,122][INFO ][gateway                  ] [Shirow Ishihara] recovered [0] indices into cluster_state
+[2016-06-12 14:45:20,205][INFO ][http                     ] [Shirow Ishihara] publish_address {127.0.0.1:9201}, bound_addresses {127.0.0.1:9201}, {[::1]:9201}
+[2016-06-12 14:45:20,205][INFO ][node                     ] [Shirow Ishihara] started
+[2016-06-12 14:48:22,380][INFO ][node                     ] [Glamor] version[5.0.0-alpha3], pid[4584], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 14:48:22,380][INFO ][node                     ] [Glamor] initializing ...
+[2016-06-12 14:48:23,960][INFO ][plugins                  ] [Glamor] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 14:48:24,021][INFO ][env                      ] [Glamor] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [35.6gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 14:48:24,021][INFO ][env                      ] [Glamor] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 14:48:28,342][INFO ][node                     ] [Glamor] initialized
+[2016-06-12 14:48:28,343][INFO ][node                     ] [Glamor] starting ...
+[2016-06-12 14:48:28,696][INFO ][transport                ] [Glamor] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2016-06-12 14:48:28,702][WARN ][bootstrap                ] [Glamor] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 14:48:28,703][WARN ][bootstrap                ] [Glamor] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 14:48:32,865][INFO ][cluster.service          ] [Shirow Ishihara] added {{Glamor}{pnitig9aQ5iFS8gi6nKBuw}{127.0.0.1}{127.0.0.1:9302},}, reason: zen-disco-join(join from node[{Glamor}{pnitig9aQ5iFS8gi6nKBuw}{127.0.0.1}{127.0.0.1:9302}])
+[2016-06-12 14:48:32,896][INFO ][cluster.service          ] [Glamor] detected_master {Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301}, added {{Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-receive(from master [master {Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301} committed version [3]])
+[2016-06-12 14:48:32,934][WARN ][discovery.zen.elect      ] [Shirow Ishihara] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2016-06-12 14:48:33,061][INFO ][http                     ] [Glamor] publish_address {127.0.0.1:9202}, bound_addresses {127.0.0.1:9202}, {[::1]:9202}
+[2016-06-12 14:48:33,061][INFO ][node                     ] [Glamor] started
+[2016-06-12 14:48:57,093][INFO ][cluster.service          ] [Shirow Ishihara] removed {{Glamor}{pnitig9aQ5iFS8gi6nKBuw}{127.0.0.1}{127.0.0.1:9302},}, reason: zen-disco-node_failed({Glamor}{pnitig9aQ5iFS8gi6nKBuw}{127.0.0.1}{127.0.0.1:9302}), reason transport disconnected
+[2016-06-12 14:49:20,808][INFO ][node                     ] [Clive] version[5.0.0-alpha3], pid[8900], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 14:49:20,808][INFO ][node                     ] [Clive] initializing ...
+[2016-06-12 14:49:22,276][INFO ][plugins                  ] [Clive] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 14:49:22,340][INFO ][env                      ] [Clive] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [35.6gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 14:49:22,341][INFO ][env                      ] [Clive] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 14:49:26,690][INFO ][node                     ] [Clive] initialized
+[2016-06-12 14:49:26,690][INFO ][node                     ] [Clive] starting ...
+[2016-06-12 14:49:27,056][INFO ][transport                ] [Clive] publish_address {127.0.0.1:9302}, bound_addresses {127.0.0.1:9302}, {[::1]:9302}
+[2016-06-12 14:49:27,066][WARN ][bootstrap                ] [Clive] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 14:49:27,066][WARN ][bootstrap                ] [Clive] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 14:49:31,242][INFO ][cluster.service          ] [Shirow Ishihara] added {{Clive}{yWH9nSUqQKmnczP6EAN1Cw}{127.0.0.1}{127.0.0.1:9302},}, reason: zen-disco-join(join from node[{Clive}{yWH9nSUqQKmnczP6EAN1Cw}{127.0.0.1}{127.0.0.1:9302}])
+[2016-06-12 14:49:31,267][INFO ][cluster.service          ] [Clive] detected_master {Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301}, added {{Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301},}, reason: zen-disco-receive(from master [master {Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301} committed version [5]])
+[2016-06-12 14:49:31,308][WARN ][discovery.zen.elect      ] [Shirow Ishihara] value for setting "discovery.zen.minimum_master_nodes" is too low. This can result in data loss! Please set it to at least a quorum of master-eligible nodes (current value: [-1], total number of master-eligible nodes used for publishing in this round: [2])
+[2016-06-12 14:49:31,465][INFO ][http                     ] [Clive] publish_address {127.0.0.1:9202}, bound_addresses {127.0.0.1:9202}, {[::1]:9202}
+[2016-06-12 14:49:31,465][INFO ][node                     ] [Clive] started
+[2016-06-12 14:50:29,551][INFO ][node                     ] [Gatecrasher] version[5.0.0-alpha3], pid[8832], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 14:50:29,551][INFO ][node                     ] [Gatecrasher] initializing ...
+[2016-06-12 14:50:31,031][INFO ][plugins                  ] [Gatecrasher] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 14:50:31,104][INFO ][env                      ] [Gatecrasher] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [35.1gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 14:50:31,105][INFO ][env                      ] [Gatecrasher] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 14:50:35,645][INFO ][node                     ] [Gatecrasher] initialized
+[2016-06-12 14:50:35,645][INFO ][node                     ] [Gatecrasher] starting ...
+[2016-06-12 14:50:35,957][INFO ][transport                ] [Gatecrasher] publish_address {127.0.0.1:9303}, bound_addresses {127.0.0.1:9303}, {[::1]:9303}
+[2016-06-12 14:50:35,957][WARN ][bootstrap                ] [Gatecrasher] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 14:50:35,957][WARN ][bootstrap                ] [Gatecrasher] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 14:50:40,102][INFO ][cluster.service          ] [Shirow Ishihara] added {{Gatecrasher}{pRmI3TypRVGV1_PFJyFVyA}{127.0.0.1}{127.0.0.1:9303},}, reason: zen-disco-join(join from node[{Gatecrasher}{pRmI3TypRVGV1_PFJyFVyA}{127.0.0.1}{127.0.0.1:9303}])
+[2016-06-12 14:50:40,118][INFO ][cluster.service          ] [Gatecrasher] detected_master {Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301}, added {{Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301},{Clive}{yWH9nSUqQKmnczP6EAN1Cw}{127.0.0.1}{127.0.0.1:9302},}, reason: zen-disco-receive(from master [master {Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301} committed version [6]])
+[2016-06-12 14:50:40,135][INFO ][cluster.service          ] [Clive] added {{Gatecrasher}{pRmI3TypRVGV1_PFJyFVyA}{127.0.0.1}{127.0.0.1:9303},}, reason: zen-disco-receive(from master [master {Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301} committed version [6]])
+[2016-06-12 14:50:40,342][INFO ][http                     ] [Gatecrasher] publish_address {127.0.0.1:9203}, bound_addresses {127.0.0.1:9203}, {[::1]:9203}
+[2016-06-12 14:50:40,342][INFO ][node                     ] [Gatecrasher] started
+[2016-06-12 14:52:21,474][INFO ][cluster.service          ] [Shirow Ishihara] removed {{Gatecrasher}{pRmI3TypRVGV1_PFJyFVyA}{127.0.0.1}{127.0.0.1:9303},}, reason: zen-disco-node_failed({Gatecrasher}{pRmI3TypRVGV1_PFJyFVyA}{127.0.0.1}{127.0.0.1:9303}), reason transport disconnected
+[2016-06-12 14:52:21,492][INFO ][cluster.service          ] [Clive] removed {{Gatecrasher}{pRmI3TypRVGV1_PFJyFVyA}{127.0.0.1}{127.0.0.1:9303},}, reason: zen-disco-receive(from master [master {Shirow Ishihara}{UbBJjyLpRZy2lN7k7xfamw}{127.0.0.1}{127.0.0.1:9301} committed version [7]])
+[2016-06-12 14:55:13,107][INFO ][node                     ] [Gaea] version[5.0.0-alpha3], pid[7496], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 14:55:13,108][INFO ][node                     ] [Gaea] initializing ...
+[2016-06-12 14:55:15,473][INFO ][plugins                  ] [Gaea] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 14:55:15,536][INFO ][env                      ] [Gaea] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [36.1gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 14:55:15,536][INFO ][env                      ] [Gaea] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 14:55:17,587][ERROR][bootstrap                ] Exception
+java.lang.IllegalArgumentException: unknown setting [cluster.http.cors.allow-origin] did you mean [http.cors.allow-origin]?
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:267)
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:238)
+	at org.elasticsearch.common.settings.SettingsModule.configure(SettingsModule.java:125)
+	at org.elasticsearch.common.inject.AbstractModule.configure(AbstractModule.java:60)
+	at org.elasticsearch.common.inject.spi.Elements$RecordingBinder.install(Elements.java:233)
+	at org.elasticsearch.common.inject.spi.Elements.getElements(Elements.java:103)
+	at org.elasticsearch.common.inject.InjectorShell$Builder.build(InjectorShell.java:148)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:99)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:96)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:46)
+	at org.elasticsearch.node.Node.<init>(Node.java:249)
+	at org.elasticsearch.node.Node.<init>(Node.java:162)
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:180)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:180)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:255)
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:96)
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:91)
+	at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54)
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:91)
+	at org.elasticsearch.cli.Command.main(Command.java:53)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:70)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:63)
+	Suppressed: java.lang.IllegalArgumentException: unknown setting [cluster.http.cors.enabled]
+		... 23 more
+[2016-06-12 14:55:23,988][INFO ][node                     ] [Knickknack] version[5.0.0-alpha3], pid[7868], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 14:55:23,988][INFO ][node                     ] [Knickknack] initializing ...
+[2016-06-12 14:55:25,262][INFO ][plugins                  ] [Knickknack] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 14:55:25,309][INFO ][env                      ] [Knickknack] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [36.1gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 14:55:25,309][INFO ][env                      ] [Knickknack] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 14:55:26,645][ERROR][bootstrap                ] Exception
+java.lang.IllegalArgumentException: unknown setting [cluster.http.cors.allow-origin] did you mean [http.cors.allow-origin]?
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:267)
+	at org.elasticsearch.common.settings.AbstractScopedSettings.validate(AbstractScopedSettings.java:238)
+	at org.elasticsearch.common.settings.SettingsModule.configure(SettingsModule.java:125)
+	at org.elasticsearch.common.inject.AbstractModule.configure(AbstractModule.java:60)
+	at org.elasticsearch.common.inject.spi.Elements$RecordingBinder.install(Elements.java:233)
+	at org.elasticsearch.common.inject.spi.Elements.getElements(Elements.java:103)
+	at org.elasticsearch.common.inject.InjectorShell$Builder.build(InjectorShell.java:148)
+	at org.elasticsearch.common.inject.InjectorBuilder.build(InjectorBuilder.java:99)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:96)
+	at org.elasticsearch.common.inject.Guice.createInjector(Guice.java:70)
+	at org.elasticsearch.common.inject.ModulesBuilder.createInjector(ModulesBuilder.java:46)
+	at org.elasticsearch.node.Node.<init>(Node.java:249)
+	at org.elasticsearch.node.Node.<init>(Node.java:162)
+	at org.elasticsearch.bootstrap.Bootstrap$5.<init>(Bootstrap.java:180)
+	at org.elasticsearch.bootstrap.Bootstrap.setup(Bootstrap.java:180)
+	at org.elasticsearch.bootstrap.Bootstrap.init(Bootstrap.java:255)
+	at org.elasticsearch.bootstrap.Elasticsearch.init(Elasticsearch.java:96)
+	at org.elasticsearch.bootstrap.Elasticsearch.execute(Elasticsearch.java:91)
+	at org.elasticsearch.cli.SettingCommand.execute(SettingCommand.java:54)
+	at org.elasticsearch.cli.Command.mainWithoutErrorHandling(Command.java:91)
+	at org.elasticsearch.cli.Command.main(Command.java:53)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:70)
+	at org.elasticsearch.bootstrap.Elasticsearch.main(Elasticsearch.java:63)
+	Suppressed: java.lang.IllegalArgumentException: unknown setting [cluster.http.cors.enabled]
+		... 23 more
+[2016-06-12 14:56:08,279][INFO ][node                     ] [Washout] version[5.0.0-alpha3], pid[9152], build[cad959b/2016-05-26T08:25:57.564Z], OS[Windows 10/10.0/amd64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_91/25.91-b15]
+[2016-06-12 14:56:08,280][INFO ][node                     ] [Washout] initializing ...
+[2016-06-12 14:56:09,992][INFO ][plugins                  ] [Washout] modules [percolator, lang-mustache, lang-painless, ingest-grok, reindex, lang-expression, lang-groovy], plugins []
+[2016-06-12 14:56:10,059][INFO ][env                      ] [Washout] using [1] data paths, mounts [[Windows8_OS (C:)]], net usable_space [36.1gb], net total_space [100.8gb], spins? [unknown], types [NTFS]
+[2016-06-12 14:56:10,060][INFO ][env                      ] [Washout] heap size [1.9gb], compressed ordinary object pointers [true]
+[2016-06-12 14:56:14,962][INFO ][node                     ] [Washout] initialized
+[2016-06-12 14:56:14,962][INFO ][node                     ] [Washout] starting ...
+[2016-06-12 14:56:15,430][INFO ][transport                ] [Washout] publish_address {127.0.0.1:9300}, bound_addresses {127.0.0.1:9300}, {[::1]:9300}
+[2016-06-12 14:56:15,435][WARN ][bootstrap                ] [Washout] initial heap size [268435456] not equal to maximum heap size [2147483648]; this can cause resize pauses and prevents mlockall from locking the entire heap
+[2016-06-12 14:56:15,435][WARN ][bootstrap                ] [Washout] please set [discovery.zen.minimum_master_nodes] to a majority of the number of master eligible nodes in your cluster
+[2016-06-12 14:56:19,532][INFO ][cluster.service          ] [Washout] new_master {Washout}{Cz8L_IvDRs28Xqk_86yiKg}{127.0.0.1}{127.0.0.1:9300}, reason: zen-disco-join(elected_as_master, [0] joins received)
+[2016-06-12 14:56:19,601][INFO ][gateway                  ] [Washout] recovered [0] indices into cluster_state
+[2016-06-12 14:56:19,701][INFO ][http                     ] [Washout] publish_address {127.0.0.1:9200}, bound_addresses {127.0.0.1:9200}, {[::1]:9200}
+[2016-06-12 14:56:19,701][INFO ][node                     ] [Washout] started

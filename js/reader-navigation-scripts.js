@@ -22,10 +22,7 @@ function resizeSearchContent() {
                                 - 11 // arrow height on popover
                                 - parseInt($("#reader-nav-search").position().top);
                                 
-  console.log(availHei);
-
   $("#reader-search-content > .container-fluid").css("max-height", (availHei * 1.0) + "px");
-  console.log($("#reader-search-content > .container-fluid").css("max-height"));
 };
 
 /*
