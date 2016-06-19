@@ -122,13 +122,26 @@
             <h4 class="modal-title">Settings</h4>
           </div>
           <div class="modal-body">
-            Font size:<br \><br \>
-
-            Saved settings:<br \>
-            Remember last-viewed page<br \>
-            <br \>
-
-
+            <!-- Experimenting with "container" and "fluid-container" classes. Will see which one works best -->
+            <div class="fluid-container">
+              <div class="row">
+                <div class="col-md-6">
+                  Font size: <br />
+                  <!-- Implementing a bootrstrap-slider for regulating font size -->
+                  <input id="fontsize" data-slider-id='fontsizeSlider' type="Font Size Slider" 
+                    data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
+                  <style>
+                  #fontsizeSlider .slider-selection {
+                              background: #fff;
+                   }
+                  </style>
+                </div>
+                <div class="col-md-6">
+                  Saved settings: <br />
+                  Remember last viewed page
+                </div>
+              </div>
+            </div>
           </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -153,6 +166,16 @@
     
     <script src="js/elasticsearch.jquery.js"></script>
     <script src="js/dynamic_load.js"></script>
+
+    <!-- Using JQuery to specify the current font size printout 
+    and the background color for the slider -->
+    <script>
+       $('#fontsize').slider({
+          formatter: function(value) { 
+          return 'Size: ' + value;
+       }
+      });
+    </script>
 
   </body>
 </html>
