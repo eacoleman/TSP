@@ -1,6 +1,78 @@
-#EXERCISE this is an exercise, it&#39s all on one line
-#DEMONSTRATION this is a demonstration, it takes up
-a few lines.
-#EQUATION 
-the equation is on a new line
+#SECTION
+Lorem Ipsum
+#EXERCISE
+At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat.
+#PARAGRAPH
+"But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure, but because those who do not know how to pursue pleasure rationally encounter consequences that are extremely painful. Nor again is there anyone who loves or pursues or desires to obtain pain of itself, because it is pain, but because occasionally circumstances occur in which toil and pain can procure him some great pleasure. To take a trivial example, which of us ever undertakes laborious physical exercise, except to obtain some advantage from it? But who has any right to find fault with a man who chooses to enjoy a pleasure that has no annoying consequences, or one who avoids a pain that produces no resultant pleasure?"
+#EQUATION \( \hat{H}\psi(t) = i\hbar \frac{\partial}{\partial t}\psi(t) \)  
+#DEMONSTRATION
+#SECTION Ass no1 
+#EXERCISE
+On the other hand, we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee the pain and trouble that are bound to ensue; and equal blame belongs to those who fail in their duty through weakness of will, which is the same as saying through shrinking from toil and pain. These cases are perfectly simple and easy to distinguish. In a free hour, when our power of choice is untrammelled and when nothing prevents our being able to do what we like best, every pleasure is to be welcomed and every pain avoided. But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently occur that pleasures have to be repudiated and annoyances accepted. The wise man therefore always holds in these matters to this principle of selection: he rejects pleasures to secure other greater pleasures, or else he endures pains to avoid worse pains."
+#PARAGRAPH Ass no2
+#EQUATION \( \hat{H}\psi(t) = i\hbar \frac{\partial}{\partial t}\psi(t) \)  
+#DEMONSTRATION
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#SECTION The Princeton Years 
+#EXERCISE My father took me to Princeton in his car, and I got my room, and he left. I hadn't been there an
+hour when I was met by a man: "I'm the Mahstah of Residences heah, and I should like to tell you
+that the Dean is having a Tea this aftanoon, and he should like to have all of you come. Perhaps you
+would be so kind as to inform your roommate, Mr. Serette." 
+#PARAGRAPH So the very afternoon I arrived in Princeton I'm going to the dean's tea, and I didn't even know
+what a "tea" was, or why! I had no social abilities whatsoever; I had no experience with this sort of
+thing.
+So I come up to the door, and there's Dean Eisenhart, greeting the new students: "Oh, you're Mr.
+Feynman," he says. "We're glad to have you." So that helped a little, because he recognized me,
+somehow. 
+#EQUATION Learn to love this equation, kids: \( \hat{H}\psi(t) = i\hbar \frac{\partial}{\partial t}\psi(t) \)  
+#DEMONSTRATION
+I remember when I was his student how it was when you walked into one of his lectures. He
+would be standing in front of the hall smiling at us all as we came in, his fingers tapping out a
+complicated rhythm on the black top of the demonstration bench that crossed the front of the
+lecture hall. As latecomers took their seats, he picked up the chalk and began spinning it rapidly
+through his fingers in a manner of a professional gambler playing with a poker chip, still smiling
+happily as if at some secret joke. And then--still smiling--he talked to us about physics, his
+diagrams and equations helping us to share his understanding. It was no secret joke that brought the
+smile and the sparkle in his eye, it was physics. The joy of physics! The joy was contagious. We are
+fortunate who caught that infection. Now here is your opportunity to be exposed to the joy of life in
+the style of Feynman. 
+#SECTION
+Surely youre joking
+#EXERCISE an academic gown at the "College." But on Monday, the first thing I wanted to do was to see the
+cyclotron.
+#PARAGRAPH "It's downstairs, in the basement--at the end of the hall." 
+#EQUATION \( \hat{H}\psi(t) = i\hbar \frac{\partial}{\partial t}\psi(t) \)  
+#DEMONSTRATION Mr Jizz
+#SECTION
+I must have been seventeen or eighteen when I worked one summer in a hotel run by my aunt. I
+don't know how much I got--twenty-two dollars a month, I think--and I alternated eleven hours one
+day and thirteen the next as a desk clerk or as a busboy in the restaurant. And during the afternoon,
+when you were desk clerk, you had to bring milk up to Mrs. D--, an invalid woman who never gave
+us a tip. That's the way the world was: You worked long hours and got nothing for it, every day.
+#EXERCISE 
+#PARAGRAPH 
+#EQUATION \( \hat{H}\psi(t) = i\hbar \frac{\partial}{\partial t}\psi(t) \)  
+#DEMONSTRATION
+I must have been seventeen or eighteen when I worked one summer in a hotel run by my aunt. I
+don't know how much I got--twenty-two dollars a month, I think--and I alternated eleven hours one
+day and thirteen the next as a desk clerk or as a busboy in the restaurant. And during the afternoon,
+when you were desk clerk, you had to bring milk up to Mrs. D--, an invalid woman who never gave
+us a tip. That's the way the world was: You worked long hours and got nothing for it, every day.
+#SECTION
+He Fixes Radios by Thinking! 
+#EXERCISE
+Put your finger in your ass
+#PARAGRAPH
+"Yeah, I took the door."
+"Cut it out, Feynman; this is serious! Sam! Did you take the door . . ." --it went all the way
+around. Everyone was shocked. There must be some real rat in the fraternity who didn't respect the
+fraternity word of honor! 
+#EQUATION \( \hat{H}\psi(t) = i\hbar \frac{\partial}{\partial t}\psi(t) \)  
+#DEMONSTRATION
+That night I left a note with a little picture of the oil tank and the door next to it, and the next day
+they found the door and put it back.
+Sometime later I finally admitted to taking the other door, and I was accused by everybody of
+lying. They couldn't remember what I had said. All they could remember was their conclusion after
+the president of the fraternity had gone around the table and asked everybody, that nobody admitted
+taking the door. The idea they remembered, but not the words. 
 #
