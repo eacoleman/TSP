@@ -24,7 +24,7 @@ print (type_list)
 # PUTs the current dictionary in the database if the type key is in type_list
 
 def push(entry, counter):
-	os.system("curl -XPUT 'http://localhost:9200/quantum/" + str(counter) + "' " + "-d " + "'" + json.dumps(entry, ensure_ascii=False) + "'")
+	os.system("curl -XPUT 'http://search-tspes-nbto5z3ymgcrbifgdizvj75dvi.us-west-2.es.amazonaws.com/quantum/" + str(counter) + "' " + "-d " + "'" + json.dumps(entry, ensure_ascii=False) + "'")
 
 # Input: .txt file name with bulks of text marked w``ith '#TYPE', and '#' at the end of the file.
 # Runs through the file line-by-line. If a` new line starts with '#', puts the current dictionary 
