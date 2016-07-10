@@ -1,0 +1,107 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Short Sectioned Assignment
+% LaTeX Template
+% Version 1.0 (5/5/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Frits Wenneker (http://www.howtotex.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[paper=letterpaper, fontsize=11pt]{article} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+% \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default %
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm, amssymb, commath} % Math packages
+
+\usepackage{verbatim}
+\usepackage{gensymb} % allows /degree signs
+\usepackage{enumerate} 
+\usepackage{enumitem}
+
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{braket}
+\usepackage{microtype}
+\usepackage{hyperref}
+
+\usepackage{sectsty} % Allows customizing section commands
+	\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+	\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+	\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+	\fancyfoot[L]{} % Empty left footer
+	\fancyfoot[C]{} % Empty center footer
+	\fancyfoot[R]{\thepage} % Page numbering for right footer
+	\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+	\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+	\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+	\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+	\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+	\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+	\setlength\parindent{0pt} % Removes all indentation from paragraphs 
+							  %- comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+
+\title{	
+\normalfont \normalsize 
+\textsc{TSP} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Note from Authors \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Arthur} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	CUSTOM COMMANDS
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	                         T A B L E   O F   C O N T E N T S
+%----------------------------------------------------------------------------------------
+
+% \tableofcontents
+
+%----------------------------------------------------------------------------------------
+%\newpage
+
+\par The idea for this project has been borne out by repeating frustration of undergraduate quantum mechanics. That frustration was grounded not in the course particulars --- on the contrary, the authors had amazing instructors and resources; rather, it was the general features of the discipline and relevant literature which lead us to think that we, as students, are able to bring in a significant contribution: the students' perspective. This note, as it stands, will be a starting point for authors' discusson of the project; it will lay down the principles on which they will collaborate, delineate their motivation, describe the desired product in broad strokes, and identify the expected timeframe of the project. Without further ado ---
+
+\par We agree to work in accordance with commonsense terms of mutual respect and cooperation. As students, we draw from a pool of knowledge which is limited in its scope of sources; we owe our understanding to these sources (and our efforts to digest and combine them), and hence agree to dissect our inspiration into its formative origins as gratitudes and citations. Realizing how easy it is to forget what one has once not known, we commit to keep our reader --- a college sophomore or freshman --- in mind as we write and re-write the future chapters of the book.
+
+\par Our motivation for the project is as complex as the curricular intricacies of any undergraduate course in the subject. One, there isn't a single textbook a physics department should adopt to teach quantum mechanics. As it happens with more modern areas of physics, different sources are better fit to deal with different topics, and one benefits from being exposed to multiple voices, provided an effort to combine them into one's own (in fact, our project may be seen as an attempt to learn deeper through teaching). The resource we aim to create would augment the already existing sources by offering a student's perspective on the material. Two, quantum mechanics is a stage in physics education when everyday intuition helps no more. One needs to internalize a set of principles which are hard to accept, and which far-reaching consequnces may appear unfathomable. The disconnect from intution is what makes the undergraduate course especially hard: students resort to memorization, and thus are lost when presented with a seemingly different situation based on the same principles. Most of the intuition is earned through corns and calluses, but some comes from instructors. We aim to contribute to that second part. Three, we are intrigued by the sketched format of the book. The example closest to the goal in mind is the Feynman lectures series provided free-of-charge on Caltech's website. However, we aim to make our resource more interactive.
+Perhaps the best aspect of science is realizing one's ability to meaningfully contribute. And while a heavy emphasis on research in academia leads some to neglect teaching, the authors feel that taking responsibility for educating future scientists --- in this case, our peers --- is an overlooked but important process. The historical significance of quantum mechanics, its impact on our understanding of nature and its philosophical implications make the project even more fascinating.
+
+\par We envision the work on the project as an ongoing process for the next couple of years. It will start as a series of topical notes, eventually merging into a single cogent resource. We will take a bottom-up approach, adding to the resource as we take steps in learning quantum field theory and revisiting the basic principles. We hope to compile a self-contained collection of notes by the time we graduate in 2018.
+
+\par Eric Mazur, a physicist and educator at Harvard University, has once said to us, "Physics majors do not need to be taught. You can lock them up in a closet with the all the textbooks, and come back in four years." We find this statement somewhat empowering, nudging to step away from the didactic method --- and learn together, as peers. We encourage, and as for, feedback from whoever visits the website and has something to say. 
+
+\end{document}
