@@ -174,3 +174,22 @@ body {
 .search-container li:last-child {
   border-bottom: none;
 }
+.loading-cover {
+  margin-top: 0;
+  padding: 0;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%; 
+  height:100%; 
+  background-color: rgba(200,200,200,0.7);
+}
+.loading-cover > .progress {
+  position: relative; 
+  margin-top:10%;
+  height: 10px; 
+  width: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,14 +1,39 @@
 /*
 * GLOBAL VARS
 */
-var location = 0;    // global reader location
+var readLocation = 0;    // global reader location
+
+// Load elasticsearch server
+//var elasticsearch = require('elasticsearch');
+//var client = new elasticsearch.Client({
+//  host: 'localhost:9200',
+//  log: 'trace'
+//});
+
+function makeDivLoading() {
+  //insert relevant div info into container
+  $(".container-fluid").append(
+              '<h3 class="loading-cover">'+
+                '<div class="progress">'+
+                  '<div class="progress-bar progress-bar-striped active" '+
+                    'role="progressbar" aria-valuenow="100"'+
+                    ' aria-valuemin="0" aria-valuemax="100" style="width: 100%">'+
+                  '</div>'+
+                '</div>'+
+              '</h3>');
+  $(".loading-cover .progress").css('margin-top', (parseInt($(window).height())/2)+'px');
+}
+
+function undoDivLoading() {
+  $(".container-fluid .loading-cover").remove();
+}
 
 /* Make sure nobody is messing with the location variable
 *
 *   Output: true if we are good to use location, false o/w 
 */
 function validateLocation() {
-  return parseInt(location) == location;
+  return parseInt(readLocation) == readLocation;
 }
 
 /* Put in a GET request for 
@@ -32,16 +57,29 @@ function formatSingleKey(key) {
 
   switch(key.type) {
     case "SECTION"      :
-      outputString=
-      outputString+=key.text  
+      outputString+="<div class='SECTION'>";
+      outputString+=key.text;
+      outputString+="</div>";
       break;
-    case "EXERCISE"     :
+    case "EXERCISE"     : // TODO: autonumbering?
+      outputString+="<div class='EXERCISE'>";
+      outputString+=key.text;
+      outputString+="</div>";
       break;
     case "PARAGRAPH"    :
+      outputString+="<div class='PARAGRAPH'>";
+      outputString+=key.text;
+      outputString+="</div>";
       break;
-    case "EQUATION"     :
+    case "EQUATION"     : // TODO: autonumbering? answers?
+      outputString+="<div class='EQUATION'>";
+      outputString+=key.text;
+      outputString+="</div>";
       break;
-    case "DEMONSTRATION":
+    case "DEMONSTRATION": // TODO: implement simulations
+      outputString+="<div class='DEMONSTRATION'>"; 
+      outputString+=key.text;
+      outputString+="</div>";
       break;
   }
 }
@@ -68,7 +106,7 @@ function formatGETOutput(keysList,direction) {
 *******************************************/
 $("#reader-book-body").scroll(function(){
   // Set location based off of top div id
-  location = ;
+  //location = ;
 
   // FOR LOADING BELOW
   if($("#reader-book-body").scrollTop() >= 0.10*$("reader-book-body").height()) {
@@ -106,3 +144,102 @@ $("#reader-book-body").scroll(function(){
     return;
   }
 });
+
+function fullLoad(beginLoc) {
+  // open a loading div in the reader
+  makeDivLoading();
+
+  // place GET request
+
+  // format output
+
+  // clear current reader
+  $("#reader-book-body").empty();
+
+  // insert HTML
+
+  // close loading div
+  undoDivLoading();
+}
+
+function getTableOfContents() {
+  // open a loading div in the table of contents
+  makeDivLoading();
+
+  // place GET request
+
+  // format JSON
+
+  // insert HTML
+
+  // apply .click() event handlers
+  $(".sidebar-nav li a").click(function(e) {
+    e.stopPropagation();
+    e.preventDefault();
+  })
+  $(".sidebar ul li").click(onTOCElementClick);
+
+  // close loading div
+  undoDivLoading();
+}
+
+function onSearchBoxChange(e) {
+  // wait a second
+  setTimeout(600);
+
+  // close popover
+  $("#reader-nav-search").popover('hide');
+
+  // open popover with 'loading' bar
+  $("#reader-search-content .container-fluid").empty();
+  $("#reader-search-content .container-fluid").append(
+      '<h3 id="reader-search-loading" class="row sub-header">Loading...'+
+        '<div class="progress" style="margin-top: 10px;height: 10px">'+
+          '<div class="progress-bar progress-bar-striped active" role="progressbar"'+
+          ' aria-valuenow="100" aria-valuemin="0" aria-valuemax="100" style="width: 100%">'+
+          '</div>'+
+        '</div>'+
+      '</h3>'
+    );
+  $("#reader-nav-search").popover('show');
+
+  // place GET request
+
+  // format JSON
+
+  // close popover with 'loading' bar
+  // /$("#reader-nav-search").popover('hide');
+
+  // insert HTML into popover
+
+  // reopen popover with search results in
+  $("#reader-nav-search").popover('show');
+
+
+}
+
+function onSearchElementClick(e) {
+  // close popover
+  $("#reader-nav-search").popover('hide');
+
+  // load at location corresponding to search element
+
+}
+
+function onTOCElementClick(e) {
+  e.stopPropagation();
+  e.preventDefault();
+
+  // setup loading box
+  makeDivLoading();
+
+  // load at location corresponding to element
+
+  // fix selected classes
+  $(".nav-sidebar .active").removeClass('active');
+  $(this).addClass("active");
+
+  // close loading box
+  undoDivLoading();
+
+}

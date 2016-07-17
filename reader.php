@@ -95,9 +95,9 @@
         <div class="col-sm-3 col-md-2 sidebar">
           <h1 class="sub-header">Quantum Mechanics</h1>
           <ul class="nav nav-sidebar">
-            <li class="active"><a href="#">Title <span class="sr-only">(current)</span></a></li>
-            <li><a href="#">Authors' Note</a></li>
-            <li><a href="#">Chapter 1: Spintroduction</a></li>
+            <li class="active"><a href="">Title <span class="sr-only">(current)</span></a></li>
+            <li><a href="">Authors' Note</a></li>
+            <li><a href="">Chapter 1: Spintroduction</a></li>
           </ul>
           <ul class="nav nav-sidebar">
             <li><a href="">Chapter 2: A Mechanical Review</a></li>
@@ -127,18 +127,10 @@
               <div class="row">
                 <div class="col-md-6">
                   Font size: <br />
-                  <!-- Implementing a bootrstrap-slider for regulating font size -->
-                  <input id="fontsize" data-slider-id='fontsizeSlider' type="Font Size Slider" 
-                    data-slider-min="0" data-slider-max="10" data-slider-step="1" data-slider-value="5"/>
-                  <style>
-                  #fontsizeSlider .slider-selection {
-                              background: #fff;
-                   }
-                  </style>
                 </div>
                 <div class="col-md-6">
-                  Saved settings: <br />
-                  Remember last viewed page
+                  <h4>Saved settings:</h4> <br />
+                  Remember my last-viewed page
                 </div>
               </div>
             </div>
@@ -166,16 +158,6 @@
     
     <script src="js/elasticsearch.jquery.js"></script>
     <script src="js/dynamic_load.js"></script>
-
-    <!-- Using JQuery to specify the current font size printout 
-    and the background color for the slider -->
-    <script>
-       $('#fontsize').slider({
-          formatter: function(value) { 
-          return 'Size: ' + value;
-       }
-      });
-    </script>
 
   </body>
 </html>

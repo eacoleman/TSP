@@ -1,0 +1,83 @@
+\documentclass[paper=letterpaper, fontsize=11pt]{article} % A4 paper and 11pt font size
+
+\usepackage[T1]{fontenc} % Use 8-bit encoding that has 256 glyphs
+% \usepackage{fourier} % Use the Adobe Utopia font for the document - comment this line to return to the LaTeX default %
+\usepackage[english]{babel} % English language/hyphenation
+\usepackage{amsmath,amsfonts,amsthm, amssymb, commath} % Math packages
+
+\usepackage{verbatim}
+\usepackage{gensymb} % allows /degree signs
+\usepackage{enumerate} 
+\usepackage{enumitem}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{array}
+\usepackage{braket}
+\usepackage{microtype}
+\usepackage{hyperref}
+
+\usepackage{sectsty} % Allows customizing section commands
+	\allsectionsfont{\centering \normalfont\scshape} % Make all sections centered, the default font and small caps
+
+\usepackage{fancyhdr} % Custom headers and footers
+	\pagestyle{fancyplain} % Makes all pages in the document conform to the custom headers and footers
+	\fancyhead{} % No page header - if you want one, create it in the same way as the footers below
+	\fancyfoot[L]{} % Empty left footer
+	\fancyfoot[C]{} % Empty center footer
+	\fancyfoot[R]{\thepage} % Page numbering for right footer
+	\renewcommand{\headrulewidth}{0pt} % Remove header underlines
+	\renewcommand{\footrulewidth}{0pt} % Remove footer underlines
+	\setlength{\headheight}{13.6pt} % Customize the height of the header
+
+	\numberwithin{equation}{section} % Number equations within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+	\numberwithin{figure}{section} % Number figures within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+	\numberwithin{table}{section} % Number tables within sections (i.e. 1.1, 1.2, 2.1, 2.2 instead of 1, 2, 3, 4)
+
+	\setlength\parindent{0pt} % Removes all indentation from paragraphs 
+							  %- comment this line for an assignment with lots of text
+
+%----------------------------------------------------------------------------------------
+%	TITLE SECTION
+%----------------------------------------------------------------------------------------
+
+\newcommand{\horrule}[1]{\rule{\linewidth}{#1}} % Create horizontal rule command with 1 argument of height
+
+
+\title{	
+\normalfont \normalsize 
+\textsc{TSP} \\ [25pt] % Your university, school and/or department name(s)
+\horrule{0.5pt} \\[0.4cm] % Thin top horizontal rule
+\huge Note from Authors \\ % The assignment title
+\horrule{2pt} \\[0.5cm] % Thick bottom horizontal rule
+}
+
+\author{Evan} % Your name
+
+\date{\normalsize\today} % Today's date or a custom date
+
+\begin{document}
+
+\maketitle % Print the title
+
+%----------------------------------------------------------------------------------------
+%	CUSTOM COMMANDS
+%----------------------------------------------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	                         T A B L E   O F   C O N T E N T S
+%----------------------------------------------------------------------------------------
+
+% \tableofcontents
+
+%----------------------------------------------------------------------------------------
+%\newpage
+
+It can take some time to become properly uncomfortable with (read: proficient in) quantum mechanics. In some ways, it is not so much a theory of physics as an operator-based interface between mathematics and the smallest scales of our natural world. Unlike more modern theories (the quantum theory of fields, string theory, and the like), it posits no fundamental, underlying structure which generates quantum phenomena, but allows us to ask the question, ``What happens when I do $X$ with a quantum system?'' Even better, we receive answers to these types of questions which can be tested experimentally to astounding precision. The development of quantum mechanics is a landmark achievement for this reason: it's the first time we've described (using mathematics) a level of reality which broke every deeply-held assumption about the fundamental notions of our reality \ldots in one fell swoop.\\
+
+Are there philosophical qualms with the interpretation of quantum mechanics? Most certainly, and we hope to discuss a few. However, Artur and I sincerely feel that some inquiries into the ``dirty depths'' of quantum mechanics miss the point. Unlike Newtonian mechanics, Quantum theory was never intended to do more than describe what we observe at the measurement level. A good friend of ours had the opportunity to ask David Gross (Nobel Laureate who discovered asymptotic convergence in 1973) what his working definition of measurement was. The response: ``I know one when I see one.'' Sometimes, it makes sense to table these questions - not because they are not important, but because they are not conducive to learning what's out there. \\
+
+I do not pretend that, as two college juniors (who have yet to take a course in Quantum Field Theory), Artur and I are the most qualified people to write a physics textbook. However, for established academics in the modern day, it can be difficult to find time to rethink the traditional textbook format. Moreover, it's quite challenging to understand what learning tools younger students need before they've been exposed to more challenging material. That's exactly why we've decided to produce ``The Student's Perspective.''\\
+
+My personal hope with this project is to produce a stress-free way to learn what is, in my mind, one of the most fascinating branches of human knowledge. It should feel a little like an adventure for you. If it doesn't, remember that this really is your textbook - we just write it. If there are any suggestions you have, please feel free to contact us.
+
+\end{document}

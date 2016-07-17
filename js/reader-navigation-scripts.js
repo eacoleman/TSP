@@ -43,6 +43,13 @@ $("#reader-nav-search").popover({
     $('.popup-window').not(this).popover('hide');
 
     e.stopPropagation();
+}).on('input',function(e) {
+  setTimeout(1000);
+  onSearchBoxChange(e);
+  $(this).popover('show');
+
+  e.stopPropagation();  
+  e.preventDefault();
 });
 
 /*
@@ -63,9 +70,10 @@ $("button.navbar-toggle").on('click', function(e) {
 $(window).on('resize', function(e) {
   hideAllPopovers(e);
   resizeSearchContent();
+  $(".loading-cover .progress").css('margin-top', (parseInt($(window).height())/2)+'px');
 });
 
 $(window).on('load', function(e) {
-  console.log("ready!");
   resizeSearchContent();
+  getTableOfContents();
 });
